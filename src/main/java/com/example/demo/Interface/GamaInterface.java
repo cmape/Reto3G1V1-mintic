@@ -9,7 +9,7 @@ import org.springframework.data.repository.CrudRepository;
 
 /**
  *
- * @author usuario -----> Extends es para heredar 
+ * @author USUARIO
  */
 public interface GamaInterface extends CrudRepository <Gama, Integer>{
     

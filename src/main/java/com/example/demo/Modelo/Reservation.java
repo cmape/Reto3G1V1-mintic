@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.example.demo.Modelo;
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.util.Date;
 import javax.persistence.Entity;
@@ -95,5 +96,8 @@ public class Reservation {
     public void setScore(String score) {
         this.score = score;
     }
+    
+    
+    
     
 }
